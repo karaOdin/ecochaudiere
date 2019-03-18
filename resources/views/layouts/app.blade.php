@@ -12,19 +12,19 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendor/css-hamburgers/dist/hamburgers.min.css">
-    <link rel="stylesheet" href="vendor/slick/slick-theme.css">
-    <link rel="stylesheet" href="vendor/slick/slick.css">
-    <link rel="stylesheet" href="fonts/font-awesome-5/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">   
-    <link rel="stylesheet" href="vendor/revolution/layers.css">
-    <link rel="stylesheet" href="vendor/revolution/navigation.css">
-    <link rel="stylesheet" href="vendor/revolution/settings.css">
-    <link rel="stylesheet" href="vendor/revolution/settings-source.css">
-    <link rel="stylesheet" href="vendor/revolution/tp-color-picker.css">
-    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/vendor/css-hamburgers/dist/hamburgers.min.css">
+    <link rel="stylesheet" href="/vendor/slick/slick-theme.css">
+    <link rel="stylesheet" href="/vendor/slick/slick.css">
+    <link rel="stylesheet" href="/fonts/font-awesome-5/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="/vendor/revolution/layers.css">
+    <link rel="stylesheet" href="/vendor/revolution/navigation.css">
+    <link rel="stylesheet" href="/vendor/revolution/settings.css">
+    <link rel="stylesheet" href="/vendor/revolution/settings-source.css">
+    <link rel="stylesheet" href="/vendor/revolution/tp-color-picker.css">
+    <link rel="stylesheet" href="/vendor/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="favicon.png">
 </head>
 <body>
@@ -44,7 +44,7 @@
                 <div class="container-fluid">
                     <div class="logo">
                         <a href="/">
-                            <img src="images/logo.png" alt="Consulting" />
+                            <img src="/images/logo.png" alt="Consulting" />
                         </a>
                     </div>
                     <div class="search-box">
@@ -144,7 +144,7 @@
             <div class="container">
                 <div class="header-bottom-content display-flex">
                     <div class="logo">
-                        <a href="/"><img src="images/logo.png" alt=""></a>
+                        <a href="/"><img src="/images/logo.png" alt=""></a>
                     </div>
                     <nav class="menu">
                         <div>
@@ -186,7 +186,7 @@
                     <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer-info">
                             <div class="footer-logo">
-                                <a href="#"><img src="images/logo.png" alt=""></a>
+                                <a href="#"><img src="/images/logo.png" alt=""></a>
                             </div>
                             <div class="info-desc">
                                 Fondée en 1998, Ecochaudière avait pour l'objectif de fabriquer des chaudières fiables, peu bruyantes et d'entretien facile pour un sevice en continu.
@@ -295,37 +295,37 @@
     <script src="{{ asset('js/app.js') }}"></script>
 
     <!-- JS -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="vendor/slick/slick.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/imagesloaded.pkgd.js"></script>
-    <script src="js/isotope-docs.min.js"></script>
-    <script src="vendor/nouislider/nouislider.min.js"></script>
-    <script src="vendor/sweetalert/sweetalert.min.js"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/vendor/slick/slick.min.js"></script>
+    <script src="/js/masonry.pkgd.min.js"></script>
+    <script src="/js/imagesloaded.pkgd.js"></script>
+    <script src="/js/isotope-docs.min.js"></script>
+    <script src="/vendor/nouislider/nouislider.min.js"></script>
+    <script src="/vendor/sweetalert/sweetalert.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEmXgQ65zpsjsEAfNPP9mBAz-5zjnIZBw"></script>
-    <script src="js/theme-map.js"></script>
+    <script src="/js/theme-map.js"></script>
 
     <!-- REVOLUTION JS FILES -->
-    <script src="js/revolution/jquery.themepunch.tools.min.js"></script>
-    <script src="js/revolution/jquery.themepunch.revolution.min.js"></script>
+    <script src="/js/revolution/jquery.themepunch.tools.min.js"></script>
+    <script src="/js/revolution/jquery.themepunch.revolution.min.js"></script>
 
     <!-- SLICEY ADD-ON FILES -->
     <script src='js/revolution/revolution.addon.slicey.min.js?ver=1.0.0'></script>
 
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.migration.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.video.min.js"></script> 
+    <script src="/js/revolution/extensions/revolution.extension.actions.min.js"></script>
+    <script src="/js/revolution/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="/js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="/js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="/js/revolution/extensions/revolution.extension.migration.min.js"></script>
+    <script src="/js/revolution/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="/js/revolution/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="/js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="/js/revolution/extensions/revolution.extension.video.min.js"></script> 
 
-    <script src="js/config-contact.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/config-contact.js"></script>
+    <script src="/js/main.js"></script>
     
 </body>
 </html>

@@ -30,3 +30,5 @@ Route::group(['prefix' => 'admin'], function () {
 Auth::routes();
 
 Route::get('/product','ProductController@index');
+Route::get('/productDetail/{id}','ProductController@getOnePrd');
+

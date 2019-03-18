@@ -8,8 +8,15 @@ class ProductController extends Controller
 {
     public function index()
     {
-    	$product = new Product();
+    	$product = Product::all();
     	$arr = Array('product'=>$product);
     	return view('product',$arr);
+    }
+
+    public function getOnePrd(Request $request, $id)
+    {
+    	$product = Product::find($id);
+    	$arr = Array('product'=>$product);
+    	return view('productDetail',$arr);
     }
 }
