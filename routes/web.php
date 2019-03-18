@@ -19,6 +19,10 @@ Route::get('/contactus', function () {
     return view('contact');
 });
 
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

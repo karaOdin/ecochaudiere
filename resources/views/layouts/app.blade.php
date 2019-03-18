@@ -43,7 +43,7 @@
             <div class="header-top-mobile">
                 <div class="container-fluid">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="/">
                             <img src="images/logo.png" alt="Consulting" />
                         </a>
                     </div>
@@ -67,70 +67,22 @@
                     <div>
                         <ul class="au-navbar-menu">
                             <li class="menu-item curent-menu-item">
-                                <a href="index.html" class="font-color-black">Home</a>
-                                <span class="arrow">
-                                    <i></i>
-                                </span>
-                                <ul class="sub-menu">
-                                        <li class="menu-item"><a href="index.html" class="font-color-black">Home 1</a></li>
-                                    <li class="menu-item"><a href="index2.html" class="font-color-black">Home 2</a></li>
-                                    <li class="menu-item"><a href="index3.html" class="font-color-black">Home 3</a></li>
-                                    <li class="menu-item"><a href="index4.html" class="font-color-black">Home 4</a></li>
-                                    <li class="menu-item"><a href="index5.html" class="font-color-black">Home 5</a></li>
-                                    <li class="menu-item"><a href="index6.html" class="font-color-black">Home 6</a></li>
-                                </ul>
+                                <a href="/" class="font-color-black">Accueil</a>
+                                
                             </li>
                             <li class="menu-item">
-                                <a href="services1.html" class="font-color-black">Services</a>
-                                <span class="arrow">
-                                    <i></i>
-                                </span>
-                                <ul class="sub-menu">
-                                        <li class="menu-item"><a href="services1.html" class="font-color-black">services 1</a></li>
-                                    <li class="menu-item"><a href="services2.html" class="font-color-black">services 2</a></li>
-                                    <li class="menu-item"><a href="services3.html" class="font-color-black">services 3</a></li>
-                                </ul>
+                                <a href="/product" class="font-color-black">Produits</a>
+                                
                             </li>
+                           
                             <li class="menu-item">
-                                <a href="projects1.html" class="font-color-black">Projects</a>
-                                <span class="arrow">
-                                    <i></i>
-                                </span>
-                                <ul class="sub-menu">
-                                        <li class="menu-item"><a href="projects1.html" class="font-color-black">projects 1</a></li>
-                                    <li class="menu-item"><a href="projects2.html" class="font-color-black">projects 2</a></li>
-                                    <li class="menu-item"><a href="projects3.html" class="font-color-black">projects 3</a></li>
-                                    <li class="menu-item"><a href="projects4.html" class="font-color-black">projects 4</a></li>
-                                    <li class="menu-item"><a href="projects5.html" class="font-color-black">projects 5</a></li>
-                                </ul>
+                                <a href="/aboutus" class="font-color-black">A Propos</a>
                             </li>
+                           
                             <li class="menu-item">
-                                <a href="aboutus.html" class="font-color-black">About</a>
+                                <a href="/contactus" class="font-color-black">Contact us</a>
                             </li>
-                            <li class="menu-item">
-                                <a href="shop.html" class="font-color-black">Shop</a>
-                                <span class="arrow">
-                                    <i></i>
-                                </span>
-                                <ul class="sub-menu">
-                                        <li class="menu-item"><a href="shop.html" class="font-color-black">Shop 1</a></li>
-                                    <li class="menu-item"><a href="shop2.html" class="font-color-black">Shop 2</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item">
-                                <a href="contactus.html" class="font-color-black">Contact us</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="blog.html" class="font-color-black">Blog</a>
-                                <span class="arrow">
-                                    <i></i>
-                                </span>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="blog.html" class="font-color-black">Blog 1</a></li>
-                                    <li class="menu-item"><a href="blog2.html" class="font-color-black">Blog 2</a></li>
-                                    <li class="menu-item"><a href="blog3.html" class="font-color-black">Blog 3</a></li>
-                                </ul>
-                            </li>
+                            
                         </ul>
                     </div>
                 </nav>
@@ -146,15 +98,15 @@
                             <ul>
                                 <li>
                                     <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <span>(+1) 115 221 2564</span>
+                                    <span>+213 (0) 35365196</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span>info@example.com</span>
+                                    <span>ecochaudiere@yahoo.fr</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    <span>Building Cror, New York, NY 93459</span>
+                                    <span>Sarl ECOCHAUDIERE, Zone industrielle , M'sila 28000</span>
                                 </li>
                             </ul>
                         </div>
@@ -171,19 +123,19 @@
                     </div>
                     <div class="header-top-info">
                         <ul>
-                            <li>
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <span>(+1) 115 221 2564</span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                                <span>info@example.com</span>
-                            </li>
-                            <li>
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                <span>Building Cror, New York, NY 93459</span>
-                            </li>
-                        </ul>
+                                <li>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <span>+213 (0) 35365196</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span>ecochaudiere@yahoo.fr</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>Sarl ECOCHAUDIERE, Zone industrielle , M'sila 28000</span>
+                                </li>
+                            </ul>
                     </div>
                 </div>
             </div>
@@ -192,61 +144,28 @@
             <div class="container">
                 <div class="header-bottom-content display-flex">
                     <div class="logo">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a href="/"><img src="images/logo.png" alt=""></a>
                     </div>
                     <nav class="menu">
                         <div>
-                            <ul class="menu-primary">
+                            <ul class="au-navbar-menu">
                                 <li class="menu-item curent-menu-item">
-                                    <a href="index.html" class="font-color-black">Home</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="index.html" class="font-color-black">Home 1</a></li>
-                                        <li class="menu-item"><a href="index2.html" class="font-color-black">Home 2</a></li>
-                                        <li class="menu-item"><a href="index3.html" class="font-color-black">Home 3</a></li>
-                                        <li class="menu-item"><a href="index4.html" class="font-color-black">Home 4</a></li>
-                                        <li class="menu-item"><a href="index5.html" class="font-color-black">Home 5</a></li>
-                                        <li class="menu-item"><a href="index6.html" class="font-color-black">Home 6</a></li>
-                                    </ul>
+                                    <a href="/" class="font-color-black">Accueil</a>
+                                    
                                 </li>
                                 <li class="menu-item">
-                                    <a href="services1.html" class="font-color-black">Services</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="services1.html" class="font-color-black">services 1</a></li>
-                                        <li class="menu-item"><a href="services2.html" class="font-color-black">services 2</a></li>
-                                        <li class="menu-item"><a href="services3.html" class="font-color-black">services 3</a></li>
-                                    </ul>
+                                    <a href="/product" class="font-color-black">Produits</a>
+                                    
                                 </li>
+                               
                                 <li class="menu-item">
-                                    <a href="projects1.html" class="font-color-black">Projects</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="projects1.html" class="font-color-black">projects 1</a></li>
-                                        <li class="menu-item"><a href="projects2.html" class="font-color-black">projects 2</a></li>
-                                        <li class="menu-item"><a href="projects3.html" class="font-color-black">projects 3</a></li>
-                                        <li class="menu-item"><a href="projects4.html" class="font-color-black">projects 4</a></li>
-                                        <li class="menu-item"><a href="projects5.html" class="font-color-black">projects 5</a></li>
-                                    </ul>
+                                    <a href="/aboutus" class="font-color-black">A Propos</a>
                                 </li>
+                               
                                 <li class="menu-item">
-                                    <a href="aboutus.html" class="font-color-black">About</a>
+                                    <a href="/contactus" class="font-color-black">Contact us</a>
                                 </li>
-                                <li class="menu-item">
-                                    <a href="shop.html" class="font-color-black">Shop</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="shop.html" class="font-color-black">Shop 1</a></li>
-                                        <li class="menu-item"><a href="shop2.html" class="font-color-black">Shop 2</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="contactus.html" class="font-color-black">Contact us</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="blog.html" class="font-color-black">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="blog.html" class="font-color-black">Blog 1</a></li>
-                                        <li class="menu-item"><a href="blog2.html" class="font-color-black">Blog 2</a></li>
-                                        <li class="menu-item"><a href="blog3.html" class="font-color-black">Blog 3</a></li>
-                                    </ul> 
-                                </li>
+                                
                             </ul>
                         </div>
                     </nav>

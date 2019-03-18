@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bricktower</title>
+    <title>Ecochaudiere</title>
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/css-hamburgers/dist/hamburgers.min.css">
     <link rel="stylesheet" href="vendor/slick/slick-theme.css">
@@ -37,7 +37,7 @@
             <div class="header-top-mobile">
                 <div class="container-fluid">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="/">
                             <img src="images/logo.png" alt="Consulting" />
                         </a>
                     </div>
@@ -61,70 +61,22 @@
                     <div>
                         <ul class="au-navbar-menu">
                             <li class="menu-item curent-menu-item">
-                                <a href="index.html" class="font-color-black">Home</a>
-                                <span class="arrow">
-                                    <i></i>
-                                </span>
-                                <ul class="sub-menu">
-                                        <li class="menu-item"><a href="index.html" class="font-color-black">Home 1</a></li>
-                                    <li class="menu-item"><a href="index2.html" class="font-color-black">Home 2</a></li>
-                                    <li class="menu-item"><a href="index3.html" class="font-color-black">Home 3</a></li>
-                                    <li class="menu-item"><a href="index4.html" class="font-color-black">Home 4</a></li>
-                                    <li class="menu-item"><a href="index5.html" class="font-color-black">Home 5</a></li>
-                                    <li class="menu-item"><a href="index6.html" class="font-color-black">Home 6</a></li>
-                                </ul>
+                                <a href="/" class="font-color-black">Accueil</a>
+                                
                             </li>
                             <li class="menu-item">
-                                <a href="services1.html" class="font-color-black">Services</a>
-                                <span class="arrow">
-                                    <i></i>
-                                </span>
-                                <ul class="sub-menu">
-                                        <li class="menu-item"><a href="services1.html" class="font-color-black">services 1</a></li>
-                                    <li class="menu-item"><a href="services2.html" class="font-color-black">services 2</a></li>
-                                    <li class="menu-item"><a href="services3.html" class="font-color-black">services 3</a></li>
-                                </ul>
+                                <a href="/product" class="font-color-black">Produits</a>
+                                
                             </li>
+                           
                             <li class="menu-item">
-                                <a href="projects1.html" class="font-color-black">Projects</a>
-                                <span class="arrow">
-                                    <i></i>
-                                </span>
-                                <ul class="sub-menu">
-                                        <li class="menu-item"><a href="projects1.html" class="font-color-black">projects 1</a></li>
-                                    <li class="menu-item"><a href="projects2.html" class="font-color-black">projects 2</a></li>
-                                    <li class="menu-item"><a href="projects3.html" class="font-color-black">projects 3</a></li>
-                                    <li class="menu-item"><a href="projects4.html" class="font-color-black">projects 4</a></li>
-                                    <li class="menu-item"><a href="projects5.html" class="font-color-black">projects 5</a></li>
-                                </ul>
+                                <a href="/aboutus" class="font-color-black">A Propos</a>
                             </li>
+                           
                             <li class="menu-item">
-                                <a href="aboutus.html" class="font-color-black">About</a>
+                                <a href="/contactus" class="font-color-black">Contact us</a>
                             </li>
-                            <li class="menu-item">
-                                <a href="shop.html" class="font-color-black">Shop</a>
-                                <span class="arrow">
-                                    <i></i>
-                                </span>
-                                <ul class="sub-menu">
-                                        <li class="menu-item"><a href="shop.html" class="font-color-black">Shop 1</a></li>
-                                    <li class="menu-item"><a href="shop2.html" class="font-color-black">Shop 2</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item">
-                                <a href="contactus.html" class="font-color-black">Contact us</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="blog.html" class="font-color-black">Blog</a>
-                                <span class="arrow">
-                                    <i></i>
-                                </span>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="blog.html" class="font-color-black">Blog 1</a></li>
-                                    <li class="menu-item"><a href="blog2.html" class="font-color-black">Blog 2</a></li>
-                                    <li class="menu-item"><a href="blog3.html" class="font-color-black">Blog 3</a></li>
-                                </ul>
-                            </li>
+                            
                         </ul>
                     </div>
                 </nav>
@@ -140,15 +92,15 @@
                             <ul>
                                 <li>
                                     <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <span>(+1) 115 221 2564</span>
+                                    <span>+213 (0) 35365196</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span>info@example.com</span>
+                                    <span>ecochaudiere@yahoo.fr</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    <span>Building Cror, New York, NY 93459</span>
+                                    <span>Sarl ECOCHAUDIERE, Zone industrielle , M'sila 28000</span>
                                 </li>
                             </ul>
                         </div>
@@ -165,18 +117,18 @@
                     </div>
                     <div class="header-top-info">
                         <ul>
-                            <li>
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <span>(+1) 115 221 2564</span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                                <span>info@example.com</span>
-                            </li>
-                            <li>
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                <span>Building Cror, New York, NY 93459</span>
-                            </li>
+                                <li>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <span>+213 (0) 35365196</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span>ecochaudiere@yahoo.fr</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>Sarl ECOCHAUDIERE, Zone industrielle , M'sila 28000</span>
+                                </li>
                         </ul>
                     </div>
                 </div>
@@ -186,62 +138,29 @@
             <div class="container">
                 <div class="header-bottom-content display-flex">
                     <div class="logo">
-                        <a href="index.html"><img src="images/logo_white.png" alt=""></a>
+                        <a href="/"><img src="images/logo_white.png" alt=""></a>
                     </div>
                     <nav class="menu">
                         <div>
-                            <ul class="menu-primary">
-                                <li class="menu-item curent-menu-item">
-                                    <a href="index.html" class="font-color-white">Home</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="index.html" class="font-color-black">Home 1</a></li>
-                                        <li class="menu-item"><a href="index2.html" class="font-color-black">Home 2</a></li>
-                                        <li class="menu-item"><a href="index3.html" class="font-color-black">Home 3</a></li>
-                                        <li class="menu-item"><a href="index4.html" class="font-color-black">Home 4</a></li>
-                                        <li class="menu-item"><a href="index5.html" class="font-color-black">Home 5</a></li>
-                                        <li class="menu-item"><a href="index6.html" class="font-color-black">Home 6</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="services1.html" class="font-color-white">Services</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="services1.html" class="font-color-black">services 1</a></li>
-                                        <li class="menu-item"><a href="services2.html" class="font-color-black">services 2</a></li>
-                                        <li class="menu-item"><a href="services3.html" class="font-color-black">services 3</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="projects1.html" class="font-color-white">Projects</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="projects1.html" class="font-color-black">projects 1</a></li>
-                                        <li class="menu-item"><a href="projects2.html" class="font-color-black">projects 2</a></li>
-                                        <li class="menu-item"><a href="projects3.html" class="font-color-black">projects 3</a></li>
-                                        <li class="menu-item"><a href="projects4.html" class="font-color-black">projects 4</a></li>
-                                        <li class="menu-item"><a href="projects5.html" class="font-color-black">projects 5</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="aboutus.html" class="font-color-white">About</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="shop.html" class="font-color-white">Shop</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="shop.html" class="font-color-black">Shop 1</a></li>
-                                        <li class="menu-item"><a href="shop2.html" class="font-color-black">Shop 2</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="contactus.html" class="font-color-white">Contact us</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="blog.html" class="font-color-white">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="blog.html" class="font-color-black">Blog 1</a></li>
-                                        <li class="menu-item"><a href="blog2.html" class="font-color-black">Blog 2</a></li>
-                                        <li class="menu-item"><a href="blog3.html" class="font-color-black">Blog 3</a></li>
-                                    </ul> 
-                                </li>
-                            </ul>
+                            <ul class="au-navbar-menu">
+                            <li class="menu-item curent-menu-item">
+                                <a href="/" class="font-color-black">Accueil</a>
+                                
+                            </li>
+                            <li class="menu-item">
+                                <a href="/product" class="font-color-black">Produits</a>
+                                
+                            </li>
+                           
+                            <li class="menu-item">
+                                <a href="/aboutus" class="font-color-black">A Propos</a>
+                            </li>
+                           
+                            <li class="menu-item">
+                                <a href="/contactus" class="font-color-black">Contact us</a>
+                            </li>
+                            
+                        </ul>
                         </div>
                     </nav>
                 </div>
@@ -275,8 +194,8 @@
                         <div class="tp-caption tp-resizeme slide-button" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
                             data-responsive="on" data-x="['right','right','center','center']" data-hoffset="['86','86','0','0']" data-y="['center','center','center','center']" data-voffset="['155', '155', '155', '155']" data-width="['770', '770', '770', '480']" 
                             data-textalign="['right','right','center','center']">
-                            <a href="#" class="btn-global boder-radius-4 btn-yellow">Contact us</a>
-                            <a href="#" class="btn-global boder-radius-4 btn-global-hover btn-global-border-hover">Learn more</a>
+                            <a href="/contactus" class="btn-global boder-radius-4 btn-yellow">Contact nous</a>
+                            <a href="/aboutus" class="btn-global boder-radius-4 btn-global-hover btn-global-border-hover">Apprendre plus</a>
                         </div>
                     </li>
                     <!-- SLIDE  -->
@@ -299,8 +218,8 @@
                         <div class="tp-caption tp-resizeme slide-button" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
                             data-responsive="on" data-x="['right','right','center','center']" data-hoffset="['86','86','0','0']" data-y="['center','center','center','center']" data-voffset="['155', '155', '155', '155']" data-width="['770', '770', '770', '480']" 
                             data-textalign="['right','right','center','center']">
-                            <a href="#" class="btn-global boder-radius-4 btn-yellow">Contact us</a>
-                            <a href="#" class="btn-global boder-radius-4 btn-global-hover btn-global-border-hover">Learn more</a>
+                            <a href="/contactus" class="btn-global boder-radius-4 btn-yellow">Contact nous</a>
+                            <a href="/aboutus" class="btn-global boder-radius-4 btn-global-hover btn-global-border-hover">Apprendre plus</a>
                         </div>
                     </li>
                     <!-- SLIDE  -->
@@ -323,8 +242,8 @@
                         <div class="tp-caption tp-resizeme slide-button" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
                             data-responsive="on" data-x="['right','right','center','center']" data-hoffset="['86','86','0','0']" data-y="['center','center','center','center']" data-voffset="['155', '155', '155', '155']" data-width="['770', '770', '770', '480']" 
                             data-textalign="['right','right','center','center']">
-                            <a href="#" class="btn-global boder-radius-4 btn-yellow">Contact us</a>
-                            <a href="#" class="btn-global boder-radius-4 btn-global-hover btn-global-border-hover">Learn more</a>
+                            <a href="/contactus" class="btn-global boder-radius-4 btn-yellow">Contact nous</a>
+                            <a href="/aboutus" class="btn-global boder-radius-4 btn-global-hover btn-global-border-hover">Apprendre plus</a>
                         </div>
                     </li>
                 </ul>
@@ -339,28 +258,28 @@
                     <div class="row">
                         <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 about-us-info">
                             <div class="section-title-left">
-                                <h2>Our Company</h2>
+                                <h2>Ecochaudiere</h2>
                             </div>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo semper tristique. Suspendisse convallis ante urna, quis pharetra mauris suscipit ut. 
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur efficitur ex nibh, sed luctus velit posuere sit amet. Nullam eget libero id lorem tempus cursus. 
-                                Donec fringilla est eu faucibus laoreet. Vivamus ut mattis lacus, quis ornare nibh.
+                                Fondée en 1998, Ecochaudière avait pour l'objectif de fabriquer des chaudières fiables, peu bruyantes et d'entretien facile pour un sevice en continu.
+                                De la réalisation de cet objectif a née une entreprise à succès, opérationnelle sur la territoire national. 
+                                La concentration sur une gamme de produits délimitée, un effort de recherche et développement conséquent, et une équipe de spécialistes dotés d'une excellente formation, tout cela permet une production en série au top niveau, évidement avec l'assurance de la qualité certifiée.
                             </p>
                             <ul>
                                 <li>
                                     <span><i class="fa fa-check" aria-hidden="true"></i></span>
-                                    <p>Duis mauris mauris congue a lobortis sit amet luctus at velit iquet.</p>
+                                    <p>Générateur d'eau chaude</p>
                                 </li>
                                 <li>
                                     <span><i class="fa fa-check" aria-hidden="true"></i></span>
-                                    <p>Phasellus sagittis non elit quis interdum egestas felis.</p>
+                                    <p>Chaudières domestique </p>
                                 </li>
                                 <li>
                                     <span><i class="fa fa-check" aria-hidden="true"></i></span>
-                                    <p>Duis mauris mauris congue a lobortis sit amet luctus at velit ique Nam lacus ante, volutpat nec velit at, congue mollis mauris. Nullam sed tincidunt lacus, ac aliquam justo. </p>
+                                    <p>Chaudière à vapeur et cuves à carburant </p>
                                 </li>
                             </ul>
-                            <a href="#" class="btn-learnmore btn-global btn-yellow boder-radius-4 btn-global-yellow-hover" data-text="Learn more">Learn more</a>
+                            <a href="/aboutus" class="btn-learnmore btn-global btn-yellow boder-radius-4 btn-global-yellow-hover" data-text="Learn more">Apprendre plus</a>
                         </div>
                         <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 about-us-image">
                             <img src="images/aboutus/about-us.png" alt="">
@@ -1046,7 +965,7 @@
                                 <a href="#"><img src="images/logo.png" alt=""></a>
                             </div>
                             <div class="info-desc">
-                                Quisque vehicula aliquam maurion suscipit felis fermentum id. Quisque tempor neque. Fusce nec risus vitae urna interdum comer dapibus ante ipsum primi sorci.
+                                Fondée en 1998, Ecochaudière avait pour l'objectif de fabriquer des chaudières fiables, peu bruyantes et d'entretien facile pour un sevice en continu.  
                             </div>
                             <div class="socials">
                                 <ul>
@@ -1061,65 +980,63 @@
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer-links">
                             <div class="footer-title">
-                                <h3>useful links</h3>
+                                <h3>Liens utiles</h3>
                             </div>
                             <div class="footer-links-menu">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Projects</a></li>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="/">Accueil</a></li>
+                                    
+                                    <li><a href="/product">Produits</a></li>
+                                    <li><a href="/aboutus">A Propos</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#">Contact us</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="/contactus">Contact nous</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer-contact">
                             <div class="footer-title">
-                                <h3>Contact us</h3>
+                                <h3>Contact nous</h3>
                             </div>
                             <ul>
                                 <li>
                                     <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <span>(+1) 115 221 2564</span>
+                                    <span>+213(0)35365196</span>
                                 </li>
                                 <li>
                                         <i class="fa fa-fax" aria-hidden="true"></i>
-                                    <span>+1 (855) 203-5485</span>
+                                    <span>+213(0)35365201</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span>info@example.com</span>
+                                    <span>ecochaudiere@yahoo.fr</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    <span>Building Cror, New York, NY 93459</span>
+                                    <span>Sarl ECOCHAUDIERE, Zone industrielle, M'sila 28000, Algeria - DZ</span>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer-work-time">
                             <div class="footer-title">
-                                <h3>Working hours</h3>
+                                <h3>HEURES DE TRAVAIL</h3>
                             </div>
                             <div class="work-time-desc">
-                                Our support available to help you 24 hours a day, seven days a week.
+                                Notre soutien est disponible pour vous aider 24 heures par jour, sept jours par semaine.
                             </div>
                             <div class="work-time">
                                 <span class="display-flex">
-                                    <span>Monday-Friday:</span>
-                                    <span>9am to 5pm</span>
+                                    <span>Dimanche-Jeudi:</span>
+                                    <span>7.30am to 4pm</span>
                                 </span>
                                 <span class="display-flex">
-                                    <span>Saturday:</span>
-                                    <span>10am to 2pm</span>
+                                    <span>Vendredi:</span>
+                                    <span>Fermée</span>
                                 </span>
                                 <span class="display-flex">
-                                    <span>Sunday:</span>
-                                    <span>Closed</span>
+                                    <span>Samdi:</span>
+                                    <span>Fermée</span>
                                 </span>
                             </div>
                         </div>
@@ -1131,7 +1048,7 @@
             <div class="container">
                 <div class="footer-bottom-content display-flex">
                     <div class="copyright">
-                            Copyright © 2018 Construction Theme Demo - Theme by <span>AuThemes</span>
+                            Copyright © 2019 Ecochaudiere - Thème par <span>DevZone</span>
                     </div>
                     <div class="footer-bottom-menu">
                         <ul>
