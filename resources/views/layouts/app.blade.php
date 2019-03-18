@@ -189,7 +189,7 @@
                                 <a href="#"><img src="images/logo.png" alt=""></a>
                             </div>
                             <div class="info-desc">
-                                Quisque vehicula aliquam maurion suscipit felis fermentum id. Quisque tempor neque. Fusce nec risus vitae urna interdum comer dapibus ante ipsum primi sorci.
+                                Fondée en 1998, Ecochaudière avait pour l'objectif de fabriquer des chaudières fiables, peu bruyantes et d'entretien facile pour un sevice en continu.
                             </div>
                             <div class="socials">
                                 <ul>
@@ -204,65 +204,63 @@
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer-links">
                             <div class="footer-title">
-                                <h3>useful links</h3>
+                                <h3>Liens utiles</h3>
                             </div>
                             <div class="footer-links-menu">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Projects</a></li>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="/">Accueil</a></li>
+                                    
+                                    <li><a href="/product">Produits</a></li>
+                                    <li><a href="/aboutus">A Propos</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#">Contact us</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="/contactus">Contact nous</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer-contact">
                             <div class="footer-title">
-                                <h3>Contact us</h3>
+                                <h3>Contact nous</h3>
                             </div>
                             <ul>
                                 <li>
                                     <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <span>(+1) 115 221 2564</span>
+                                    <span>+213(0)35365196</span>
                                 </li>
                                 <li>
                                         <i class="fa fa-fax" aria-hidden="true"></i>
-                                    <span>+1 (855) 203-5485</span>
+                                    <span>+213(0)35365201</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span>info@example.com</span>
+                                    <span>ecochaudiere@yahoo.fr</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    <span>Building Cror, New York, NY 93459</span>
+                                    <span>Sarl ECOCHAUDIERE, Zone industrielle, M'sila 28000, Algeria - DZ</span>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer-work-time">
                             <div class="footer-title">
-                                <h3>Working hours</h3>
+                                <h3>HEURES DE TRAVAIL</h3>
                             </div>
                             <div class="work-time-desc">
-                                Our support available to help you 24 hours a day, seven days a week.
+                                Notre soutien est disponible pour vous aider 24 heures par jour, sept jours par semaine.
                             </div>
                             <div class="work-time">
                                 <span class="display-flex">
-                                    <span>Monday-Friday:</span>
-                                    <span>9am to 5pm</span>
+                                    <span>Dimanche-Jeudi:</span>
+                                    <span>7.30am to 4pm</span>
                                 </span>
                                 <span class="display-flex">
-                                    <span>Saturday:</span>
-                                    <span>10am to 2pm</span>
+                                    <span>Vendredi:</span>
+                                    <span>Fermée</span>
                                 </span>
                                 <span class="display-flex">
-                                    <span>Sunday:</span>
-                                    <span>Closed</span>
+                                    <span>Samdi:</span>
+                                    <span>Fermée</span>
                                 </span>
                             </div>
                         </div>
@@ -274,14 +272,14 @@
             <div class="container">
                 <div class="footer-bottom-content display-flex">
                     <div class="copyright">
-                            Copyright © 2018 Construction Theme Demo - Theme by <span>AuThemes</span>
+                            Copyright © 2019 Ecochaudiere - Thème par <span>DevZone</span>
                     </div>
                     <div class="footer-bottom-menu">
                         <ul>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="/">Accueil</a></li>
+                            <li><a href="/product">Produits</a></li>
+                            <li><a href="/aboutus">A Proposs</a></li>
+                            <li><a href="/contactus">Contact nous</a></li>
                         </ul>
                     </div>
                 </div>

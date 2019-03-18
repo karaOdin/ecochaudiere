@@ -6,12 +6,12 @@
             <img src="images/aboutus/aboutus-heading.jpg" alt="">
             <div class="heading-page-content position-center">
                 <div class="page-title">
-                    <h1>About us</h1>
+                    <h1>A Propos</h1>
                 </div>
                 <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">About</li>
+                        <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">A Propos</li>
                     </ul>
                 </nav>
             </div>
@@ -24,31 +24,29 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 about-us-info">
                             <div class="section-title-left">
-                                <h2>Our Company</h2>
+                                <h2>Ecochodiere</h2>
                             </div>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo semper tristique. Suspendisse convallis ante urna, quis pharetra mauris suscipit ut. 
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur efficitur ex nibh, sed luctus velit posuere sit amet. Nullam eget libero id lorem tempus cursus. 
-                                Donec fringilla est eu faucibus laoreet. Vivamus ut mattis lacus, quis ornare nibh.
+                                Fondée en 1998, Ecochaudière avait pour l'objectif de fabriquer des chaudières fiables, peu bruyantes et d'entretien facile pour un sevice en continu.
+                                De la réalisation de cet objectif a née une entreprise à succès, opérationnelle sur la territoire national. 
+                                La concentration sur une gamme de produits délimitée, un effort de recherche et développement conséquent, et une équipe de spécialistes dotés d'une excellente formation, tout cela permet une production en série au top niveau, évidement avec l'assurance de la qualité certifiée.
                             </p>
                             <ul>
                                 <li>
                                     <span><i class="fa fa-check" aria-hidden="true"></i></span>
-                                    <p>Duis mauris mauris congue a lobortis sit amet luctus at velit iquet.</p>
+                                    <p>Générateur d'eau chaude</p>
                                 </li>
                                 <li>
                                     <span><i class="fa fa-check" aria-hidden="true"></i></span>
-                                    <p>Phasellus sagittis non elit quis interdum egestas felis.</p>
+                                    <p>Chaudières domestique </p>
                                 </li>
                                 <li>
                                     <span><i class="fa fa-check" aria-hidden="true"></i></span>
-                                    <p>Duis mauris mauris congue a lobortis sit amet luctus at velit ique Nam lacus ante, volutpat nec velit at, congue mollis mauris. Nullam sed tincidunt lacus, ac aliquam justo. </p>
+                                    <p>Chaudière à vapeur et cuves à carburant </p>
                                 </li>
                             </ul>
-                            <p>
-                                    Vivamus porttitor faucibus felis, vel eleifend enim malesuada ut. Integer at mi at massa efficitur convallis. Pellentesque et leo id velit interdum consectetur at in nulla. Maecenas congue hendrerit bibendum. Mauris tempor vel ligula eu aliquam. 
-                                    Donec eget nunc a velit ornare cursus vitae at eros. Cras ut nisl dui. Aliquam erat volutpat. In lobortis ex molestie.
-                            </p>
+                            
+                            
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 about-us-image">
                             <img src="images/aboutus/about-us.png" alt="">
@@ -78,15 +76,16 @@
             </div>
             <div class="company-skills-content">
                 <div class="section-title-left">
-                    <h2>Company Skills</h2>
+                    <h2>Compétences de l'entreprise</h2>
                 </div>
-                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie varius odio, vitae volutpat elit malesuada sit amet. 
-                    Aenean cursus enim eu enim porta molestie. Integer fringilla sem vel dui condimentum ullamcorper. Pellentesque eu sodales urna.</div>
+                <div class="desc">
+                                    Ecochaudière est un leader dans la fabrication de chaudières domestique, générateur d'eau chaude, chaudière à vapeur et cuves à carburant. En fonction de vos besoins spécifiques, nous vous fournissons des solutions sur mesure vous permettant de réaliser des économies d'énergie et offrant toutes les garantie de sécurité et de fiabilité.
+                            </div>
                 <div class="company-skills-list">
                     <ul>
                         <li>
                             <div class="title-regular-14 display-flex">
-                                <span>Construction Professional</span>
+                                <span>Professionnel de la construction</span>
                                 <span>90%</span>
                             </div>
                             <div class="progress">
@@ -95,25 +94,17 @@
                         </li>
                         <li>
                             <div class="title-regular-14 display-flex">
-                                <span>Team Work</span>
+                                <span>Travail en équipe</span>
                                 <span>85%</span>
                             </div>
                             <div class="progress">
                                 <div class="progress-bar bg-success" style="width:85%"></div>   
                             </div>
                         </li>
+                        
                         <li>
                             <div class="title-regular-14 display-flex">
-                                <span>Creative Architecture</span>
-                                <span>95%</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" style="width:95%"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="title-regular-14 display-flex">
-                                <span>Practical Experience</span>
+                                <span>Expérience pratique</span>
                                 <span>80%</span>
                             </div>
                             <div class="progress">
@@ -122,7 +113,7 @@
                         </li>
                         <li>
                             <div class="title-regular-14 display-flex">
-                                <span>Client Satisfaction</span>
+                                <span>La satisfaction du client</span>
                                 <span>100%</span>
                             </div>
                             <div class="progress">
@@ -139,7 +130,7 @@
         <section class="about-team">
             <div class="container">
                 <div class="section-title">
-                    <h2>our team</h2>
+                    <h2>NOTRE ÉQUIPE</h2>
                 </div>
                 <div class="our-team-content">
                     <div class="row">
@@ -241,13 +232,13 @@
                 <div class="choose-us-list">
                     <div class="choose-us-list-content">
                         <div class="section-title-left">
-                            <h2>Why Choose Us</h2>
+                            <h2>Pourquoi Nous Choisir</h2>
                         </div>
                         <ul id="accordion">
                             <li class="card active">
                                 <div class="card-header" id="headingOne">
                                     <div class="title title-bold-16" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" role="button">
-                                        Construction Team
+                                        Experience dans le domaine
                                     </div>
                                 </div>
 
@@ -287,7 +278,7 @@
                 <div class="statistics-company">
                     <div class="statistics-company-content">
                         <div class="section-title-left">
-                            <h2>Statistics Company</h2>
+                            <h2>STATISTIQUES DE L'ENTREPRISE</h2>
                         </div>
                         <div class="statistics-content our-process-content">
                             <article class="item">
@@ -297,11 +288,11 @@
                                     </a>
                                 </figure>
                                 <div class="info">
-                                    <div class="count">10+</div>
+                                    <div class="count">20+</div>
                                     <div class="title">
                                         <h3 class="title-regular-14">
                                             <a href="#" class="font-color-white">
-                                                Years Experience
+                                                Années d'expérience
                                             </a>
                                         </h3>
                                     </div>
@@ -314,11 +305,11 @@
                                     </a>
                                 </figure>
                                 <div class="info">
-                                    <div class="count">600+</div>
+                                    <div class="count">100+</div>
                                     <div class="title">
                                         <h3 class="title-regular-14">
                                             <a href="#" class="font-color-white">
-                                                Completed Projects
+                                                Projets achevés
                                             </a>
                                         </h3>
                                     </div>
@@ -348,11 +339,11 @@
                                     </a>
                                 </figure>
                                 <div class="info">
-                                    <div class="count">600+</div>
+                                    <div class="count">100+</div>
                                     <div class="title">
                                         <h3 class="title-regular-14">
                                             <a href="#" class="font-color-white">
-                                                Completed Projects
+                                                clients satisfaits
                                             </a>
                                         </h3>   
                                     </div>
@@ -360,7 +351,7 @@
                             </article>
                             
                         </div>
-                        <a href="#" class="btn-global btn-yellow btn-global-yellow-hover" data-text="Get A Quote">Get A Quote</a>
+                        
                     </div>
                 </div>
             </div>

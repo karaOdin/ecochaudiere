@@ -1052,10 +1052,10 @@
                     </div>
                     <div class="footer-bottom-menu">
                         <ul>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="/">Accueil</a></li>
+                            <li><a href="/product">Produits</a></li>
+                            <li><a href="/aboutus">A Proposs</a></li>
+                            <li><a href="/contactus">Contact nous</a></li>
                         </ul>
                     </div>
                 </div>
