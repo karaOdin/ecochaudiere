@@ -10,15 +10,15 @@
 <main>
 	<!-- Heading page -->
         <section class="heading-page">
-            <img src="/images/contact/contact-heading.jpg" alt="">
+            <img src="/images/product/banner/background-comming-soon.jpg" alt="">
             <div class="heading-page-content position-center">
                 <div class="page-title">
-                    <h1>Contact nous</h1>
+                    <h1>{{$product->name}}</h1>
                 </div>
                 <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/">Accueil</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contact nous</li>
+                        <li class="breadcrumb-item active" aria-current="page">Produits</li>
                     </ul>
                 </nav>
             </div>
@@ -30,7 +30,12 @@
 						<img src="/storage/{{$product->image}}">
 					</div>
 					<div class="col-sm-6">
-			        	<h1>{{$product->name}}</h1>						
+						<div class="section-title-left">
+							<h2>{{$product->name}}</h2>	
+						</div>
+			        	<p>
+			        		{!! $product->description !!}
+			        	</p>			
 					</div>
 				</div>        		
         	</div>

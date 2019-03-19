@@ -3,7 +3,7 @@
 
    <!-- Heading page -->
         <section class="heading-page">
-            <img src="images/project/projetc-heading.jpg" alt="">
+            <img src="/images/product/banner/background-comming-soon.jpg" alt="">
             <div class="heading-page-content position-center">
                 <div class="page-title">
                     <h1>Produits</h1>
@@ -33,7 +33,7 @@
                         <div class="row">
                             <article class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 item element-item building {{$myproduct->prd_code}}">
                                 <figure class="figure-hover">
-                                    <a href="#">
+                                    <a href="/productDetail/{{$myproduct->id}}">
                                         <img src="storage/{{$myproduct->image}}" alt="">
                                         <span class="overlay"></span>
                                     </a>
@@ -41,14 +41,14 @@
                                 <div class="info position-center">
                                     <div class="title">
                                         <h3 class="title-bold-white title-bold">
-                                            The Sharp Building
+                                            {{$myproduct->name}}
                                         </h3>
                                     </div>
                                     <div class="desc">
-                                        {{$myproduct->description}}
+                                        {{str_limit($myproduct->description,80)}}
                                     </div>
                                 </div>
-                                <a href="#" class="view-more">View more</a>
+                                <a href="/productDetail/{{$myproduct->id}}" class="view-more">View more</a>
                             </article>
                             
                         </div>
