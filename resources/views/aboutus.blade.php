@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'A Propos')
+
 
 @section('content')
         <!-- Heading page -->
@@ -244,7 +246,7 @@
 
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                                     <div class="card-body content">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna  vulpuate nec felis semper, aliquam luctus metus. Vivamus blandit vestibulum viverra Pellentesque id mi lectus. Vestibulum ut ultrices sem. Suspendisse sit amet orsollicitudin, pretium ipsum consectetur, mattis quam. Etiam auctor et quam sit gravida. Sed malesuada vitae diam at volutpat.
+                                        Nous avons plus de 20 ans d'expérience dans ce secteur.
                                     </div>
                                 </div>
                             </li>

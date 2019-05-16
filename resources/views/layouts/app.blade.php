@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Ecochaudière - @yield('title')</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="/vendor/revolution/tp-color-picker.css">
     <link rel="stylesheet" href="/vendor/nouislider/nouislider.min.css">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="/storage/logo/favicon.ico" type="image/x-icon" />
 </head>
 <body>
   <!-- page load-->
@@ -44,7 +44,7 @@
                 <div class="container-fluid">
                     <div class="logo">
                         <a href="/">
-                            <img src="/images/logo.png" alt="Consulting" />
+                            <img src="/storage/logo/logo_4.png" alt="Consulting" />
                         </a>
                     </div>
                     <div class="search-box">
@@ -80,7 +80,7 @@
                             </li>
                            
                             <li class="menu-item">
-                                <a href="/contactus" class="font-color-black">Contact us</a>
+                                <a href="/contactus" class="font-color-black">Contact Nous</a>
                             </li>
                             
                         </ul>
@@ -92,7 +92,7 @@
                 <div class="container-fluid">
                     <div class="header-top-content display-flex">
                         <div class="header-top-desc">
-                            We Are Specialists In Construction And Architecture!
+                            Un monde des chaudieres et d'un univer chaud!
                         </div>
                         <div class="header-top-info">
                             <ul>
@@ -119,7 +119,7 @@
             <div class="container">
                 <div class="header-top-content display-flex">
                     <div class="header-top-desc">
-                        We Are Specialists In Construction And Architecture!
+                        Un monde des chaudieres et d'un univer chaud!
                     </div>
                     <div class="header-top-info">
                         <ul>
@@ -144,7 +144,7 @@
             <div class="container">
                 <div class="header-bottom-content display-flex">
                     <div class="logo">
-                        <a href="/"><img src="/images/logo.png" alt=""></a>
+                        <a href="/"><img src="/storage/logo/logo_4.png" alt=""></a>
                     </div>
                     <nav class="menu">
                         <div>
@@ -186,7 +186,7 @@
                     <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer-info">
                             <div class="footer-logo">
-                                <a href="#"><img src="/images/logo.png" alt=""></a>
+                                <a href="#"><img src="/storage/logo/logo_4.png" alt=""></a>
                             </div>
                             <div class="info-desc">
                                 Fondée en 1998, Ecochaudière avait pour l'objectif de fabriquer des chaudières fiables, peu bruyantes et d'entretien facile pour un sevice en continu.

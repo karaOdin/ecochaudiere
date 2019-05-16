@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ecochaudiere</title>
+    <title>Eco Chaudière</title>
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/css-hamburgers/dist/hamburgers.min.css">
     <link rel="stylesheet" href="vendor/slick/slick-theme.css">
@@ -19,7 +19,19 @@
     <link rel="stylesheet" href="vendor/revolution/tp-color-picker.css">
     <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="/storage/logo/favicon.ico" type="image/x-icon" />
+
+    <style type="text/css">
+    .menu ul li a
+    {
+        
+    }
+    .header-2 .fixed
+    {
+        background: #fff;
+    }
+</style>
+
 </head>
 <body>
     <!-- page load-->
@@ -38,7 +50,7 @@
                 <div class="container-fluid">
                     <div class="logo">
                         <a href="/">
-                            <img src="images/logo.png" alt="Consulting" />
+                            <img src="/storage/{{setting('site.logo')}}" alt="Consulting" />
                         </a>
                     </div>
                     <div class="search-box">
@@ -86,7 +98,7 @@
                 <div class="container-fluid">
                     <div class="header-top-content display-flex">
                         <div class="header-top-desc">
-                            We Are Specialists In Construction And Architecture!
+                            Un monde des chaudieres et d'un univer chaud!
                         </div>
                         <div class="header-top-info">
                             <ul>
@@ -113,7 +125,7 @@
             <div class="container">
                 <div class="header-top-content display-flex">
                     <div class="header-top-desc">
-                        We Are Specialists In Construction And Architecture!
+                        Un monde des chaudieres et d'un univer chaud!
                     </div>
                     <div class="header-top-info">
                         <ul>
@@ -138,7 +150,7 @@
             <div class="container">
                 <div class="header-bottom-content display-flex">
                     <div class="logo">
-                        <a href="/"><img src="images/logo_white.png" alt=""></a>
+                        <a href="/"><img src="/storage/{{setting('site.logo')}}" alt=""></a>
                     </div>
                     <nav class="menu">
                         <div>
@@ -177,7 +189,7 @@
                 <ul>    <!-- SLIDE  -->
                     <li data-index="rs-82" data-transition="slidingoverlaydown">
                         <!-- MAIN IMAGE -->
-                        <img src="images/home/home2-slideshow1.jpg"  alt="">
+                        <img src="/storage/headerImage/BI-hero-1920-700-1920x700.jpg"  alt="">
 
                         <!-- LAYERS -->
                         <div class="tp-caption tp-resizeme slide-title" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
@@ -201,7 +213,7 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-83" data-transition="3dcurtain-vertical">
                         <!-- MAIN IMAGE -->
-                        <img src="images/home/home2-slideshow2.jpg"  alt="">
+                        <img src="/storage/headerImage/brasserie-unibroue-en-france.jpg"  alt="">
 
                         <!-- LAYERS -->
                         <div class="tp-caption tp-resizeme slide-title" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
@@ -225,7 +237,7 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-84" data-transition="slidingoverlayup">
                         <!-- MAIN IMAGE -->
-                        <img src="images/home/home2-slideshow3.jpg"  alt="">
+                        <img src="/storage/headerImage/Spirotherm-at-Pinellas--1920x700.jpg"  alt="">
 
                         <!-- LAYERS -->
                         <div class="tp-caption tp-resizeme slide-title" data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
@@ -818,95 +830,7 @@
         </section>
 
         <!-- Blog -->
-        <section class="home2-blog">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Lastest news</h2>
-                </div>
-                <div class="blog-content">
-                    <div class="row">
-                        <article class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 item">
-                            <figure class="figure-hover">
-                                <a href="single.html">
-                                    <img src="images/home/home6-blog-1.jpg" alt="">
-                                    <span class="overlay"></span>
-                                    <span class="plus">+</span>
-                                </a>
-                                <div class="post-date">
-                                    <span>Jun</span>
-                                    <span>24</span>
-                                </div>
-                            </figure>
-                            <div class="info">
-                                <div class="title">
-                                    <h3 class="title-regular">
-                                        <a href="single.html" class="font-color-black">
-                                            Lorem Ipsum Dolor Sit Pellentesque.
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div class="desc">
-                                    Phasellus sagittis sagittis elementum. Donec non elit quis est interdum vestibulum id egestas felis. Nam lacus ante, volutpat nec velit at, congue mollis mauris.
-                                </div>
-                            </div>
-                            <a href="single.html" class="read-more-regular btn-yellow boder-radius-4 btn-global-yellow-hover" data-text="Read more">Read more</a>
-                        </article>
-                        <article class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 item">
-                            <figure class="figure-hover">
-                                <a href="single.html">
-                                    <img src="images/home/home6-blog-2.jpg" alt="">
-                                    <span class="overlay"></span>
-                                    <span class="plus">+</span>
-                                </a>
-                                <div class="post-date">
-                                    <span>Jun</span>
-                                    <span>26</span>
-                                </div>
-                            </figure>
-                            <div class="info">
-                                <div class="title">
-                                    <h3 class="title-regular">
-                                        <a href="single.html" class="font-color-black">
-                                            Vestibulum Lacinia Accumsan Nunc?
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div class="desc">
-                                    Nam lacus ante, volutpat nec velit at, congue mollis mauris. Nullam sed tincidunt lacus, ac aliquam justo. Vestibulum mollis, ipsum non dictum.
-                                </div>
-                            </div>
-                            <a href="single.html" class="read-more-regular btn-yellow boder-radius-4" data-text="Read more">Read more</a>
-                        </article>
-                        <article class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 item">
-                            <figure class="figure-hover">
-                                <a href="single.html">
-                                    <img src="images/blog/blog-10.jpg" alt="">
-                                    <span class="overlay"></span>
-                                    <span class="plus">+</span>
-                                </a>
-                                <div class="post-date">
-                                    <span>Jun</span>
-                                    <span>29</span>
-                                </div>
-                            </figure>
-                            <div class="info">
-                                <div class="title">
-                                    <h3 class="title-regular">
-                                        <a href="single.html" class="font-color-black">
-                                            Vestibulum Lacinia Accumsan Nunc?
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div class="desc">
-                                    Orci varius natoque penatibus et magnis parturient montes, nascetur ridiculus mus. Aenean aliquet augue lectus, id aliquet leo pharetra laoreet vivamus ante mi, facilisis.
-                                </div>
-                            </div>
-                            <a href="single.html" class="read-more-regular btn-yellow boder-radius-4" data-text="Read more">Read more</a>
-                        </article> 
-                    </div>
-                </div>
-            </div>
-        </section>
+        
 
         <!-- Partner -->
         <section class="partner background-grey p-t-70 p-b-70">
@@ -962,7 +886,7 @@
                     <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer-info">
                             <div class="footer-logo">
-                                <a href="#"><img src="images/logo.png" alt=""></a>
+                                <a href="#"><img src="/storage/{{setting('site.logo')}}" alt="{{setting('site.logo')}}"></a>
                             </div>
                             <div class="info-desc">
                                 Fondée en 1998, Ecochaudière avait pour l'objectif de fabriquer des chaudières fiables, peu bruyantes et d'entretien facile pour un sevice en continu.  

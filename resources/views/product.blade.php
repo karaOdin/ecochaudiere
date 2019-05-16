@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Notre Produits')
+
 @section('content')
 
    <!-- Heading page -->
@@ -25,16 +27,17 @@
                     <ul class="filter-projects display-flex-center">
                         <li><span class="is-checked" data-filter="*">All</span></li>
                         @foreach($product as $myprdcode)
-                        <li><span data-filter=".{{$myprdcode->prd_code}}">{{$myprdcode->name}}</span></li>
+                        <li><span data-filter=".{{$myprdcode->prd_code}}">{{$myprdcode->marson_name}}</span></li>
                         @endforeach
                     </ul>
-                    @foreach($product as $myproduct)
+                    
                     <div class="grid">
                         <div class="row">
-                            <article class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 item element-item building {{$myproduct->prd_code}}">
+                            @foreach($product as $myproduct)
+                            <article class="col col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12  item element-item  {{$myproduct->prd_code}}">
                                 <figure class="figure-hover">
                                     <a href="/productDetail/{{$myproduct->id}}">
-                                        <img src="storage/{{$myproduct->image}}" alt="">
+                                        <img src="storage/{{$myproduct->image}}" style="width: 100%" alt="">
                                         <span class="overlay"></span>
                                     </a>
                                 </figure>
@@ -45,15 +48,15 @@
                                         </h3>
                                     </div>
                                     <div class="desc">
-                                        {{str_limit($myproduct->description,80)}}
+                                        {!! str_limit($myproduct->description,80) !!}
                                     </div>
                                 </div>
                                 <a href="/productDetail/{{$myproduct->id}}" class="view-more">View more</a>
                             </article>
-                            
+                            @endforeach
                         </div>
                     </div>
-                    @endforeach
+                    
                 </div>
             </div>
         </section>

@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Contactez Nous')
+
 
 @section('content')
   <!-- Heading page -->
@@ -86,7 +88,7 @@
                                                 <ul>
                                                     <li><a href="https://www.facebook.com/EcochaudiereDZ" class="display-flex-center"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                                     <li><a href="#" class="display-flex-center"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#" class="display-flex-center"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                    <li><a href="https://www.linkedin.com/company/ecochaudiere/" class="display-flex-center"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                                 </ul>
                                             </div>
                                         </div>
