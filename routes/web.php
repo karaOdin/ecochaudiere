@@ -10,9 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+use App\Product;
 Route::get('/', function () {
-    return view('welcome');
+	$products = DB::table('products')->skip(1)->take(3)->get();
+    return view('welcome', compact('products'));
 });
 
 Route::get('/contactus', function () {
@@ -29,6 +30,6 @@ Route::group(['prefix' => 'admin'], function () {
 
 Auth::routes();
 
-Route::get('/product','ProductController@index');
-Route::get('/productDetail/{id}','ProductController@getOnePrd');
+Route::get('/products','ProductController@index');
+Route::get('/products/{slug}','ProductController@getOnePrd');
 

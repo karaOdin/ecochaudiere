@@ -51,7 +51,7 @@
                             
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 about-us-image">
-                            <img src="images/aboutus/about-us.png" alt="">
+                            <img src="/storage/aboutus/IMG_1054.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
             <div class="company-skills-video">
                 <div class="skills-video bmd-modalButton" data-toggle="modal" data-target="#modal-video-01" data-bmdSrc="https://player.vimeo.com/video/112734492" data-bmdWidth="500" data-bmdHeight="281">
                     <figure class="skills-video">
-                        <img src="images/aboutus/company-skill.jpg" alt="">
+                        <img src="/storage/aboutus/IMG_1033.jpg" alt="">
                         <span class="overgradient"> 
                         </span>
                         <div class="info">

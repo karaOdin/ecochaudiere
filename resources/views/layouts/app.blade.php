@@ -44,7 +44,7 @@
                 <div class="container-fluid">
                     <div class="logo">
                         <a href="/">
-                            <img src="/storage/logo/logo_4.png" alt="Consulting" />
+                            <img src="/storage/{{setting('site.logo')}}" alt="Consulting" />
                         </a>
                     </div>
                     <div class="search-box">
@@ -71,7 +71,7 @@
                                 
                             </li>
                             <li class="menu-item">
-                                <a href="/product" class="font-color-black">Produits</a>
+                                <a href="/products" class="font-color-black">Produits</a>
                                 
                             </li>
                            
@@ -144,7 +144,7 @@
             <div class="container">
                 <div class="header-bottom-content display-flex">
                     <div class="logo">
-                        <a href="/"><img src="/storage/logo/logo_4.png" alt=""></a>
+                        <a href="/"><img src="/storage/{{setting('site.logo')}}" alt=""></a>
                     </div>
                     <nav class="menu">
                         <div>
@@ -154,7 +154,7 @@
                                     
                                 </li>
                                 <li class="menu-item">
-                                    <a href="/product" class="font-color-black">Produits</a>
+                                    <a href="/products" class="font-color-black">Produits</a>
                                     
                                 </li>
                                
@@ -186,7 +186,7 @@
                     <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer-info">
                             <div class="footer-logo">
-                                <a href="#"><img src="/storage/logo/logo_4.png" alt=""></a>
+                                <a href="#"><img src="/storage/{{setting('site.logo')}}" alt=""></a>
                             </div>
                             <div class="info-desc">
                                 Fondée en 1998, Ecochaudière avait pour l'objectif de fabriquer des chaudières fiables, peu bruyantes et d'entretien facile pour un sevice en continu.
@@ -210,7 +210,7 @@
                                 <ul>
                                     <li><a href="/">Accueil</a></li>
                                     
-                                    <li><a href="/product">Produits</a></li>
+                                    <li><a href="/products">Produits</a></li>
                                     <li><a href="/aboutus">A Propos</a></li>
                                 </ul>
                                 <ul>
@@ -277,7 +277,7 @@
                     <div class="footer-bottom-menu">
                         <ul>
                             <li><a href="/">Accueil</a></li>
-                            <li><a href="/product">Produits</a></li>
+                            <li><a href="/products">Produits</a></li>
                             <li><a href="/aboutus">A Proposs</a></li>
                             <li><a href="/contactus">Contact nous</a></li>
                         </ul>

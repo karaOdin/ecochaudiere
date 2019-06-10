@@ -13,10 +13,9 @@ class ProductController extends Controller
     	return view('product',$arr);
     }
 
-    public function getOnePrd(Request $request, $id)
+    public function getOnePrd(Request $request, $slug)
     {
-    	$product = Product::find($id);
-    	$arr = Array('product'=>$product);
-    	return view('productDetail',$arr);
+    	$product = Product::where('slug',$slug)->firstOrFail();
+    	return view('productDetail',compact('product'));
     }
 }
