@@ -3,6 +3,18 @@
 
 
 @section('content')
+
+<style type="text/css">
+    .img-prod
+    {
+        margin: 20px
+    }
+
+    .content-slider li
+    {
+        background-color: #fff;
+    }
+</style>
         <!-- Heading page -->
         <section class="heading-page">
             <img src="images/aboutus/aboutus-heading.jpg" alt="">
@@ -152,10 +164,10 @@
                             <div class="info">
                                 <div class="title">
                                     <h3 class="title-bold">
-                                        Brandon Sullivan
+                                        Hamza Djerad
                                     </h3>
                                 </div>
-                                <div class="desc">General Director</div>
+                                <div class="desc">Directeur Genéral</div>
                             </div>
                         </article>
                         <article class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 item">
@@ -174,7 +186,7 @@
                             <div class="info">
                                 <div class="title">
                                     <h3 class="title-bold">
-                                        Eugene Graham
+                                        Kamal Djerad
                                     </h3>
                                 </div>
                                 <div class="desc">Manager</div>
@@ -196,7 +208,7 @@
                             <div class="info">
                                 <div class="title">
                                     <h3 class="title-bold">
-                                        Christina Gilbert
+                                        Abderezzak Djerad
                                     </h3>
                                 </div>
                                 <div class="desc">Manager</div>
@@ -207,7 +219,7 @@
                                 <img src="images/aboutus/our-team-4.jpg" alt="">
                                 <div class="socials">
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.faceboook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -218,7 +230,7 @@
                             <div class="info">
                                 <div class="title">
                                     <h3 class="title-bold">
-                                        Charles Collins
+                                        SId Ali Mihoub
                                     </h3>
                                 </div>
                                 <div class="desc">Worker</div>
@@ -228,7 +240,7 @@
                 </div>
             </div>
         </section>
-
+        <!--
         <section class="why-choose-us">
             <div class="choose-us-content">
                 <div class="choose-us-list">
@@ -358,49 +370,111 @@
                 </div>
             </div>
         </section>
-
-        <!-- Partner -->
-        <section class="partner background-grey p-t-70 p-b-70">
+        -->
+         <!-- Statistics -->
+        <section class="statistics background-grey">
             <div class="container">
-                <div class="partner-content">
+                <div class="statistics-content our-process-content">
                     <div class="row">
-                        <article class="item">
+                        <article class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 item">
                             <figure>
                                 <a href="#">
-                                    <img src="images/home/partner-1.png" alt="">
+                                    <img src="images/service/icon-people.png" alt="">
                                 </a>
                             </figure>
+                            <div class="info">
+                                <div class="count">10+</div>
+                                <div class="title">
+                                    <h3 class="title-regular-14">
+                                        <a href="#" class="font-color-black">
+                                            Years Experience
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
                         </article>
-                        <article class="item">
+                        <article class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 item">
                             <figure>
                                 <a href="#">
-                                    <img src="images/home/partner-2.png" alt="">
+                                    <img src="images/service/icon-door.png" alt="">
                                 </a>
                             </figure>
+                            <div class="info">
+                                <div class="count">600+</div>
+                                <div class="title">
+                                    <h3 class="title-regular-14">
+                                        <a href="#" class="font-color-black">
+                                            Completed Projects
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
                         </article>
-                        <article class="item">
+                        <article class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 item">
                             <figure>
                                 <a href="#">
-                                    <img src="images/home/partner-3.png" alt="">
+                                    <img src="images/service/icon-cup.png" alt="">
                                 </a>
                             </figure>
+                            <div class="info">
+                                <div class="count">15+</div>
+                                <div class="title">
+                                    <h3 class="title-regular-14">
+                                        <a href="#" class="font-color-black">
+                                            Awards Received
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
                         </article>
-                        <article class="item">
+                        <article class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 item">
                             <figure>
                                 <a href="#">
-                                    <img src="images/home/partner-4.png" alt="">
+                                    <img src="images/service/icon-heart.png" alt="">
                                 </a>
                             </figure>
-                        </article>
-                        <article class="item">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/home/partner-1.png" alt="">
-                                </a>
-                            </figure>
+                            <div class="info">
+                                <div class="count">2000+</div>
+                                <div class="title">
+                                    <h3 class="title-regular-14">
+                                        <a href="#" class="font-color-black">
+                                            Satisfied Clients
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
                         </article>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- Partner -->
+        
+        <section class="img-prod">
+            <div class="section-title">
+                    <h2>NOTRE EMPLACEMENT</h2>
+            </div>
+            <div class="item">
+                <ul id="content-slider" class="content-slider">
+                    <li>
+                        <img src="/storage/aboutus/img_0962.jpg">
+                    </li>
+                    <li>
+                        <img src="/storage/aboutus/img_0974.jpg">
+                    </li>
+                    <li>
+                        <img src="/storage/aboutus/img_0976.jpg">
+                    </li>
+                    <li>
+                        <img src="/storage/aboutus/img_0987.jpg">
+                    </li>
+                    <li>
+                        <img src="/storage/aboutus/img_0992.jpg">
+                    </li>
+                    <li>
+                        <img src="/storage/aboutus/img_1000.jpg">
+                    </li>
+                </ul>
             </div>
         </section>
 @endsection

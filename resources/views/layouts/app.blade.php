@@ -25,7 +25,36 @@
     <link rel="stylesheet" href="/vendor/revolution/tp-color-picker.css">
     <link rel="stylesheet" href="/vendor/nouislider/nouislider.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/plugins/slick/slick.css">
     <link rel="shortcut icon" href="/storage/logo/favicon.ico" type="image/x-icon" />
+
+
+    <!--slider -->
+        <link rel="stylesheet"  href="/css/lightslider.css"/>
+
+    <style>
+        ul{
+            list-style: none outside none;
+            padding-left: 0;
+            margin: 0;
+        }
+        .demo .item{
+            margin-bottom: 60px;
+        }
+        .content-slider li{
+            background-color: #ed3020;
+            text-align: center;
+            color: #FFF;
+        }
+        .content-slider h3 {
+            margin: 0;
+            padding: 70px 0;
+        }
+        .demo{
+            width: 800px;
+        }
+    </style>
+   
 </head>
 <body>
   <!-- page load-->
@@ -323,9 +352,32 @@
     <script src="/js/revolution/extensions/revolution.extension.parallax.min.js"></script>
     <script src="/js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="/js/revolution/extensions/revolution.extension.video.min.js"></script> 
+    <script src="/plugins/slick/slick.min.js"></script>
 
     <script src="/js/config-contact.js"></script>
     <script src="/js/main.js"></script>
+    
+     <script src="/js/lightslider.js"></script> 
+    <script>
+         $(document).ready(function() {
+            $("#content-slider").lightSlider({
+                loop:true,
+                keyPress:true
+            });
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:9,
+                slideMargin: 0,
+                speed:500,
+                auto:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }  
+            });
+        });
+    </script>  
     
 </body>
 </html>

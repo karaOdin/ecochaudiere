@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="/storage/logo/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="/css/lightslider.css"/>
 
     <style type="text/css">
     .menu ul li a
@@ -33,6 +34,18 @@
     }*/
     .checked {
       color: orange;
+    }
+</style>
+
+<style type="text/css">
+    .img-prod
+    {
+        margin: 20px
+    }
+
+    .content-slider li
+    {
+        background-color: #fff;
     }
 </style>
 
@@ -323,7 +336,7 @@
             </div>
         </section>
 
-        <!-- Our Services -->
+        <!-- Our Services 
         <section class="services p-t-80 p-b-100">
             <h4 class="heading-section">Heading section</h4>
             <div class="container">
@@ -419,9 +432,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
-        <!-- Our sucess -->
+        <!-- Our sucess 
         <section class="our-sucess background-grey p-t-80 p-b-100">
             <div class="container">
                 <div class="section-title">
@@ -552,8 +565,8 @@
                 </div>
             </div>
         </section>
-
-        <!-- Our Process -->
+            -->
+        <!-- Our Process 
         <section class="our-process p-t-80 p-b-100">
             <div class="container">
                 <div class="section-title">
@@ -644,9 +657,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
-        <!-- Testimonials -->
+        <!-- Testimonials
         <section id="#testimonials" class="testimonials home1-testimonials">
             <h4 class="heading-section">Heading section</h4>
             <div class="testimonials-content">
@@ -712,7 +725,7 @@
                 </article>
             </div>
 
-        </section>
+        </section> -->
 
         <!-- Our Team -->
         <section class="our-team">
@@ -793,6 +806,22 @@
             </div>
         </section>
 
+        <!-- prodducts -->
+            <section class="img-prod">
+            <div class="section-title">
+                    <h2>NOTRE Produits</h2>
+            </div>
+            <div class="item">
+                <ul id="content-slider" class="content-slider">
+                    @foreach($products as $product)
+                    <li>
+                        <img src="/storage/{{$product->image}}">
+                    </li>
+                    @endforeach
+                </ul>
+            </div>
+        </section>
+        <!--end-->
         <!-- CTA -->
         <section class="cta p-t-100 p-b-100">
             <!-- <img src="/images/home/cta-background.jpg" alt=""> -->
@@ -1093,5 +1122,28 @@
 
     <script src="/js/config-contact.js"></script>
     <script src="/js/main.js"></script> 
+
+
+     <script src="/js/lightslider.js"></script> 
+    <script>
+         $(document).ready(function() {
+            $("#content-slider").lightSlider({
+                loop:true,
+                keyPress:true
+            });
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:9,
+                slideMargin: 0,
+                speed:500,
+                auto:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }  
+            });
+        });
+    </script>  
 </body>
 </html>

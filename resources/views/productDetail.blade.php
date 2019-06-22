@@ -122,7 +122,21 @@
         	</div>
         	
         </section>
+        @isset($product->multi_image)
         
+        <section style="margin: 20px">
+        	 
+				 <div class="item">
+	                <ul id="content-slider" class="content-slider">
+	                	<?php $bigImages = json_decode($product->multi_image); ?> 
+						@foreach($bigImages as $bigImage)
+	                    <li>
+	                        <img src="/storage/{{ $bigImage }}">
+	                    </li>
+	                   @endforeach 
+			 
+        </section>
+        @endisset
         <!-- modal-->  <!-- Modal Video 01-->
 			<div class="modal fade" id="modal-video-01">
 				<div class="modal-dialog display-flex-center">
